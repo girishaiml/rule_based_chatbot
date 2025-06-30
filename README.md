@@ -1,4 +1,4 @@
-# 🤖 Rule-Based Chatbot
+#  Rule-Based Chatbot
 
 This is a simple AI chatbot built in Python. It responds to user messages like:
 - hi
