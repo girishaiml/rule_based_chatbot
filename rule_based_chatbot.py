@@ -4,10 +4,9 @@ def get_response(user_input):
     user_input = user_input.lower().strip()
 
     rules = {
-        "hi": "Hello! How can I help you?",
+        "hi": "Hello! How can I help you?", "thanks": "you are welcome",
         "hello": "Hi there! Need assistance with something?",
         "how are you": "I'm just code, but thanks for asking!",
-        "bye": "Goodbye! Have a great day!",
         "who are you": "I’m a simple chatbot created by Girish!"
     }
 
@@ -19,10 +18,10 @@ def start_chat():
     while True:
         user_input = input("You: ")
         if user_input.lower() == "bye":
-            print("🤖 Chatbot: Goodbye! 👋")
+            print(" Chatbot: Goodbye! 👋")
             break
         response = get_response(user_input)
-        print(f"🤖 Chatbot: {response}")
+        print(f"Chatbot: {response}")
 
 
 if __name__ == "__main__":
