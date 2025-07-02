@@ -7,7 +7,7 @@ def get_response(user_input):
         "hi": "Hello! How can I help you?", "thanks": "you are welcome",
         "hello": "Hi there! Need assistance with something?",
         "how are you": "I'm just code, but thanks for asking!",
-        "who are you": "I’m a simple chatbot created by Girish!"
+        "who are you": "I’m a simple chatbot created by Girish Goud Mokuralas!"
     }
 
     return rules.get(user_input, "Sorry, I didn't understand that.")
